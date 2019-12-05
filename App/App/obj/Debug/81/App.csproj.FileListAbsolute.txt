@@ -4,6 +4,7 @@ C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\App.App.apk
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\App.App-Signed.apk
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\App.nuget.stamp
+C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\App.csprojAssemblyReference.cache
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\libraryimports.cache.stamp
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\res.flag
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\App.csproj.CoreCompileInputs.cache
