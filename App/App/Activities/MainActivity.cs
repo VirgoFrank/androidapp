@@ -8,13 +8,18 @@ using Android.Content;
 using System.Threading.Tasks;
 using System.IO;
 using System.Linq;
+using App.Adapters;
+using System.Collections.Generic;
+using Android.Views;
 
 namespace App
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        protected override void OnCreate(Bundle savedInstanceState)
+        View _view;
+
+        protected override async void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             // Set our view from the "main" layout resource
@@ -26,17 +31,24 @@ namespace App
             var toAddActivityButton = FindViewById<Button>(Resource.Id.addButton);
 
             toAddActivityButton.Click += toAddActivityButton_Click;
-            ReadAsync();
+            await ReadAsync(this);
         }
 
-        public async Task ReadAsync()
+        public async Task ReadAsync(Activity context)
         {
+            List<string> data = new List<string>(); 
             var searchListView = FindViewById<ListView>(Resource.Id.searchListView);
             var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            if (_view == null)
+            {
+                _view = context.LayoutInflater.Inflate(Resource.Layout.list_layout, null);
+            }
             foreach (var file in Directory.GetFiles(path))
             {
-                File.Exists(file);
+                data.Add(Path.GetFileNameWithoutExtension(file));
+                data.Add(File.ReadAllText(file));
             }
+            searchListView.Adapter = new NoteAdapter(this, data);
             return;
         }
 

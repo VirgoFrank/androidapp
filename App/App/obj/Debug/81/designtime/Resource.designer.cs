@@ -2534,6 +2534,9 @@ namespace App
 			// aapt resource value: 0x7F0C0010
 			public const int normal = 2131492880;
 			
+			// aapt resource value: 0x7F010012
+			public const int noteDesc = 2130771986;
+			
 			// aapt resource value: 0x7F010011
 			public const int noteTitle = 2130771985;
 			

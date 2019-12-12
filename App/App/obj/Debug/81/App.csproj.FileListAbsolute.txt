@@ -1,13 +1,12 @@
+C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\App.nuget.stamp
+C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\libraryimports.cache.stamp
+C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\res.flag
+C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\App.csproj.CoreCompileInputs.cache
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\App.dll
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\App.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\App.App.apk
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\App.App-Signed.apk
-C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\App.nuget.stamp
-C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\App.csprojAssemblyReference.cache
-C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\libraryimports.cache.stamp
-C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\res.flag
-C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\App.csproj.CoreCompileInputs.cache
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\App.dll
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\App.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\android\bin\App.App.apk
@@ -46,7 +45,6 @@ C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.Xml.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.Net.Http.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.Runtime.Serialization.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.ServiceModel.Internals.pdb
-C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\Mono.Security.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.Data.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.Numerics.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.Transactions.pdb
@@ -55,6 +53,7 @@ C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.IO.Compression.File
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.ComponentModel.Composition.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.Web.Services.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\System.Xml.Linq.pdb
+C:\Users\opilane\Desktop\androidapp\App\App\bin\Debug\Mono.Security.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\linksrc\App.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\linksrc\Mono.Android.pdb
 C:\Users\opilane\Desktop\androidapp\App\App\obj\Debug\81\linksrc\mscorlib.pdb
