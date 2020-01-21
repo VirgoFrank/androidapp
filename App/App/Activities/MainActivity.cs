@@ -11,6 +11,9 @@ using System.Linq;
 using App.Adapters;
 using System.Collections.Generic;
 using Android.Views;
+using App.Models;
+using static Android.Widget.AdapterView;
+using App.Activities;
 
 namespace App
 {
@@ -31,9 +34,11 @@ namespace App
             var toAddActivityButton = FindViewById<Button>(Resource.Id.addButton);
 
             toAddActivityButton.Click += toAddActivityButton_Click;
+           
+            
             await ReadAsync(this);
         }
-
+       
         public async Task ReadAsync(Activity context)
         {
             List<string> data = new List<string>(); 
@@ -49,8 +54,17 @@ namespace App
                 data.Add(File.ReadAllText(file));
             }
             searchListView.Adapter = new NoteAdapter(this, data);
+
+            searchListView.ItemClick += (object sender, ItemClickEventArgs e) =>
+            {
+                //  var note = 
+                var intent = new Intent(this, typeof(DetailsActivity));
+                StartActivity(intent);
+            };
             return;
         }
+        
+
 
         private void toAddActivityButton_Click(object sender, EventArgs e)
         {

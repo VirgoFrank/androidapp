@@ -37,6 +37,8 @@ namespace App
         
         public async Task SaveAsync(string title, string desc)
         {
+
+            
             var backingFile = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), title + ".txt");
             using (var writer = File.CreateText(backingFile))
             {
